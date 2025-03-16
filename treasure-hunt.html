@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treasure Hunt</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="treasure-hunt.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="memory-lane.html">Memory Lane</a></li>
+        <li><a href="treasure-hunt.html">Treasure Hunt</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="final-surprise.html">Final Surprise</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page-container treasure-container">
+    <h1>Treasure Hunt</h1>
+    <p>Find the hidden object to reveal the next clue.</p>
+    <p><em>Clue: "Where we first met"</em></p>
+    <!-- The school bell icon will appear after a delay -->
+    <img id="schoolBell" src="images/school-bell.png" alt="School Bell" class="hidden-object" style="display:none;" onclick="handleClick()">
+  </main>
+</body>
+</html>
